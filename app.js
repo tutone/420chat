@@ -29,7 +29,7 @@ app.configure(function() {
 });
 
 // DB Connection for Client list
-mongoose.connect('mongodb://tutone:snowbum1@ds035167.mongolab.com:35167/heroku_app11209194');
+mongoose.connect('mongodb://'MongoDBUserName:MongoDBPassword@ds035167.mongolab.com:35167/heroku_app11209194');
 
 // Clean previous data
 var clients = new ClientModel();
